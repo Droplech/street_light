@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>SimpleBar</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="simplebar.css">
+	<script src="simplebar.min.js"></script>
+	<style>
+		.block{
+			height: 300px;
+			width: 250px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			box-shadow: 0 0 10px rgba(0,0,0,.2);
+			padding: 15px;		
+		}
+		.simplebar-scrollbar::before{
+			background-color: red;
+		}
+		.my-table{
+			height: 300px;
+		}
+	</style>
+</head>
+<body>
+
+	<!-- https://grsmto.github.io/simplebar/ -->
+
+	<div class="container mt-5">
+		<div data-simplebar2 class="block" id="myEl">
+			<p>Lorem ipsum dolor.</p>
+			<p>Voluptates, molestiae, at!</p>
+			<p>Dignissimos, non, possimus.</p>
+			<p>Temporibus, dignissimos, fugit!</p>
+			<p>Ratione, culpa doloribus.</p>
+			<p>Fugiat, fuga, eaque.</p>
+			<p>Ab, atque, beatae.</p>
+			<p>Voluptate, totam, cumque.</p>
+			<p>Illum, eaque quidem.</p>
+			<p>Et, at repellendus?</p>
+			<p>Adipisci optio, ab!</p>
+			<p>Sed, adipisci, odio?</p>
+			<p>Culpa, iure deleniti?</p>
+			<p>Amet, nihil, repudiandae.</p>
+			<p>Voluptate, quos, vel!</p>
+			<p>Dignissimos tempora, praesentium?</p>
+			<p>Repudiandae, nemo, quo!</p>
+			<p>Placeat neque, non.</p>
+			<p>Ullam, nostrum atque.</p>
+			<p>Obcaecati molestiae, iste.</p>
+			<p>Totam, voluptate, unde.</p>
+			<p>Voluptas, aspernatur hic.</p>
+			<p>Labore, ullam, alias.</p>
+			<p>Quaerat, deserunt, perferendis.</p>
+			<p>Quam, ea enim.</p>
+			<p>Ea, accusamus, quibusdam.</p>
+			<p>Modi, aspernatur, fugit!</p>
+			<p>Inventore, deserunt, alias!</p>
+			<p>Eos, optio, harum.</p>
+			<p>Rerum asperiores, veritatis?</p>
+		</div>
+
+		<div class="mt-5 mb-5 my-table" data-simplebar data-simplebar-auto-hide='false'>
+			<table class="table table-striped">
+				<tbody>
+					<tr>
+						<th scope="row">1</th>
+						<td>Mark</td>
+						<td>Otto</td>
+						<td>@mdo</td>
+					</tr>
+					<tr>
+						<th scope="row">2</th>
+						<td>Jacob</td>
+						<td>Thornton</td>
+						<td>@fat</td>
+					</tr>
+					<tr>
+						<th scope="row">3</th>
+						<td>Larry</td>
+						<td>the Bird</td>
+						<td>@twitter</td>
+					</tr>
+					<tr>
+						<th scope="row">3</th>
+						<td>Larry</td>
+						<td>the Bird</td>
+						<td>@twitter</td>
+					</tr>
+					<tr>
+						<th scope="row">3</th>
+						<td>Larry</td>
+						<td>the Bird</td>
+						<td>@twitter</td>
+					</tr>
+					<tr>
+						<th scope="row">3</th>
+						<td>Larry</td>
+						<td>the Bird</td>
+						<td>@twitter</td>
+					</tr>
+					<tr>
+						<th scope="row">3</th>
+						<td>Larry</td>
+						<td>the Bird</td>
+						<td>@twitter</td>
+					</tr>
+					<tr>
+						<th scope="row">3</th>
+						<td>Larry</td>
+						<td>the Bird</td>
+						<td>@twitter</td>
+					</tr>
+					<tr>
+						<th scope="row">3</th>
+						<td>Larry</td>
+						<td>the Bird</td>
+						<td>@twitter</td>
+					</tr>
+					<tr>
+						<th scope="row">3</th>
+						<td>Larry</td>
+						<td>the Bird</td>
+						<td>@twitter</td>
+					</tr>
+					<tr>
+						<th scope="row">3</th>
+						<td>Larry</td>
+						<td>the Bird</td>
+						<td>@twitter</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+
+	</div>
+
+
+
+	<script>
+		new SimpleBar(document.getElementById('myEl'), {
+			autoHide: false,
+			scrollbarMinSize: 100
+		});
+	</script>
+	
+</body>
+</html>
