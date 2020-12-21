@@ -1544,6 +1544,20 @@ margin-top: 10px;
     .footer_wrapper .footer_content>div+div {
         margin-left: 75px;
     }
+    .nav_product  ul .ready_solutions{
+       padding-left: 0;
+       padding-right: 57px;
+    }
+    .nav_product .other_products .other_toggle_block{
+        right: -233px;
+    }
+    .nav_product .parck_lighting .parck_toggle_block {
+        left: -170px;
+    }
+
+
+
+
 }
 @media screen and (max-width: 1366px){
     .nav_product ul li {
@@ -1561,10 +1575,29 @@ margin-top: 10px;
     .right_content .card_prod:hover .card_dop-info {
         width: 101%;
     }
+    .head_nav .head_nav_wrapper .left_nav {
+        flex-wrap: wrap;
+    }
+    .nav_product ul .ready_solutions {
+        
+        padding-right: 52px;
+    }
 }
 @media screen and (max-width: 1280px){
     .nav_product ul li {
         padding: 9px 20px;
+    }
+    .nav_product ul .ready_solutions {
+        padding-right: 39px;
+    }
+    .head_nav_wrapper .lenguage{
+        margin-left: 7px;
+    }
+    .nav_product .other_products .other_toggle_block {
+        right: -215px;
+    }
+    .nav_product .parck_lighting .parck_toggle_block {
+        left: -148px;
     }
    
 }
@@ -1593,6 +1626,15 @@ margin-top: 10px;
     .right_content .card_prod{
         width: 33%;
     }
+    .nav_product ul .ready_solutions {
+        padding-right: 20px;
+    }
+    .nav_product .other_products .other_toggle_block {
+        right: -154px;
+    }
+    .nav_product .parck_lighting .parck_toggle_block {
+        left: -124px;
+    }
 }
 @media screen and (max-width: 770px){
     .right_content .card_prod {
@@ -1619,6 +1661,20 @@ margin-top: 10px;
     }
     .nav_product ul li a {
         font-size: 12px;
+    }
+    .nav_product ul .ready_solutions {
+        padding-right: 12px;
+    }
+    .nav_product .list_street .street_toggle_block,
+    .nav_product .ready_solutions .ready_toggle_block{
+        width: 723px;
+    }
+    .nav_product .parck_lighting .parck_toggle_block {
+        left: -90px;
+    }
+    .nav_product .other_products .other_toggle_block {
+        right: -125px;
+        width: 723px;
     }
 }
 @media screen and (max-width: 420px){
