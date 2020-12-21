@@ -1582,6 +1582,9 @@ margin-top: 10px;
         
         padding-right: 56px;
     }
+    .nav_product .parck_lighting .parck_toggle_block {
+        left: -159px;
+    }
 }
 @media screen and (max-width: 1280px){
     .nav_product ul li {
