@@ -102,6 +102,182 @@ a:hover{
 .head_nav_wrapper .navigate{
     width: 1005px;
 }
+
+.nav_product .list_street,
+.nav_product .parck_lighting,
+.nav_product .autononous_lighting,
+.nav_product .other_products,
+.nav_product .ready_solutions{
+    position: relative;
+}
+
+.nav_product .list_street .street_toggle_block,
+.nav_product .parck_lighting .parck_toggle_block,
+.nav_product .autononous_lighting .autononous_toggle_block{
+    position: absolute;
+    width: 850px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    height: auto;
+    left: 0;
+    top: 100%;
+    padding: 35px;
+    z-index: 100;
+    border-radius: 4px;
+    display: none;
+}
+
+.nav_product .list_street:hover .street_toggle_block,
+.nav_product .parck_lighting:hover .parck_toggle_block,
+.nav_product .autononous_lighting:hover .autononous_toggle_block,
+.nav_product .other_products:hover .other_toggle_block,
+.nav_product .ready_solutions:hover .ready_toggle_block{
+    display: block;
+}
+
+.nav_product .list_street .street_toggle_block .toggle_block_content,
+.nav_product .parck_lighting .parck_toggle_block .toggle_block_content,
+.nav_product .autononous_lighting .autononous_toggle_block .toggle_block_content,
+.nav_product .other_products .other_toggle_block .toggle_block_content,
+.nav_product .ready_solutions .ready_toggle_block .toggle_block_content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.street_toggle_block .toggle_block_content .street_lamps,
+.parck_toggle_block .toggle_block_content .street_lamps,
+.autononous_toggle_block .toggle_block_content .street_lamps,
+.other_toggle_block .toggle_block_content .street_lamps,
+.ready_toggle_block .toggle_block_content .street_lamps{
+    flex-basis: 33%;
+}
+.street_toggle_block .toggle_block_content .street_lamps .text a,
+.parck_toggle_block .toggle_block_content .street_lamps .text a,
+.autononous_toggle_block .toggle_block_content .street_lamps .text a,
+.other_toggle_block .toggle_block_content .street_lamps .text a,
+.ready_toggle_block .toggle_block_content .street_lamps .text a{
+    font-size: 15px;
+    font-weight: 700;
+    color: #000;
+    
+}
+.street_toggle_block .toggle_block_content .street_lamps .text ,
+.parck_toggle_block .toggle_block_content .street_lamps .text ,
+.autononous_toggle_block .toggle_block_content .street_lamps .text ,
+.other_toggle_block .toggle_block_content .street_lamps .text ,
+.ready_toggle_block .toggle_block_content .street_lamps .text {
+    line-height: 20px;
+}
+.street_toggle_block .toggle_block_content .street_lamps .text:hover a,
+.parck_toggle_block .toggle_block_content .street_lamps .text:hover a,
+.autononous_toggle_block .toggle_block_content .street_lamps .text:hover a,
+.other_toggle_block .toggle_block_content .street_lamps .text:hover a,
+.ready_toggle_block .toggle_block_content .street_lamps .text:hover a{
+    color: #B7202B;
+}
+.street_toggle_block .toggle_block_content .street_lamps,
+.parck_toggle_block .toggle_block_content .street_lamps,
+.autononous_toggle_block .toggle_block_content .street_lamps,
+.other_toggle_block .toggle_block_content .street_lamps,
+.ready_toggle_block .toggle_block_content .street_lamps{
+    margin-top: 10px;
+}
+
+.street_toggle_block .toggle_block_content .street_lamps .img,
+.parck_toggle_block .toggle_block_content .street_lamps .img,
+.autononous_toggle_block .toggle_block_content .street_lamps .img,
+.other_toggle_block .toggle_block_content .street_lamps .img,
+.ready_toggle_block .toggle_block_content .street_lamps .img{
+    margin-right: 10px;
+}
+.street_toggle_block .toggle_block_content .lamps_p .text,
+.parck_toggle_block .toggle_block_content .lamps_p .text,
+.autononous_toggle_block .toggle_block_content .lamps_p .text,
+.other_toggle_block .toggle_block_content .lamps_p .text,
+.ready_toggle_block .toggle_block_content .lamps_p .text{
+    padding-top: 16px;
+}
+
+.nav_product .parck_lighting .parck_toggle_block{
+    width: 635px;
+    left: -190px;
+}
+
+.parck_toggle_block .toggle_block_content .street_lamps{
+    flex-basis: 50%;
+}
+
+.nav_product .autononous_lighting .autononous_toggle_block{
+    width: 300px;
+    padding-top: 13px;
+    left: -30px;
+}
+
+.autononous_toggle_block .toggle_block_content .street_lamps{
+    flex-basis: 100%;
+}
+
+
+.nav_product .other_products .other_toggle_block{
+    position: absolute;
+    width: 850px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    height: auto;
+    right: -217px;
+    top: 100%;
+    padding: 35px;
+    z-index: 100;
+    border-radius: 4px;
+    display: none;
+    
+}
+
+.nav_product .other_products .other_toggle_block .toggle_block_content{
+    justify-content: flex-end;
+}
+
+
+.nav_product .ready_solutions .ready_toggle_block{
+    position: absolute;
+    width: 850px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    height: auto;
+    right: -2px;
+    top: 100%;
+    padding: 35px;
+    z-index: 100;
+    border-radius: 4px;
+    display: none;
+}
+
+.ready_toggle_block .toggle_block_content .street_width .img{
+    width: 50px;
+    padding-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .head_nav_wrapper .navigate .more{
     position: relative;
 }
@@ -373,13 +549,16 @@ margin-top: 10px;
     color: #fff;
     font-size: 14px;
 }
+.left_content .filter .links li{
+    line-height: 1.3;
+}
 .left_content .filter .links li a{
     font-size: 14px;
     color: #353535;
     border-bottom: 1px solid rgba(53,53,53,.25);
 }
 .left_content .filter .links > li + li{
-    margin-top: 5px;
+    margin-top: 8px;
 }
 .left_content .filter .links li a:hover{
     color: #c41e28;
@@ -475,6 +654,29 @@ margin-top: 10px;
     margin-bottom: 15px;
     position: relative;
 }
+.right_content .card_prod_m .card_img{
+    margin-bottom: 26px;
+    
+}
+
+.right_content .card_prod_m2 .card_img{
+    margin-bottom: 84px;
+    margin-top: 50px;
+    
+}
+.right_content .card_prod_m3 .card_img{
+    margin-bottom: 58px;
+    margin-top: 50px;
+    
+}
+.right_content .card_prod_m4 .card_img{
+    margin-bottom: 72px;
+    margin-top: 68px;
+    
+}
+
+
+
 .right_content .card_prod .card_img .btn_video{
     position: absolute;
     width: 54px;
