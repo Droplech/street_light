@@ -1561,7 +1561,7 @@ margin-top: 10px;
 }
 @media screen and (max-width: 1366px){
     .nav_product ul li {
-        padding: 9px 27px;
+        padding: 9px 25px;
     }
     .footer_wrapper .footer_content>div+div {
         margin-left: 0;
