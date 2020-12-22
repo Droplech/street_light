@@ -181,3 +181,24 @@ $('.link_fil_management').click(function(){
 // management/
 
 // mob filters/
+
+
+
+
+
+$('.filter ul li').click(function(){
+    $('.filter ul li').removeClass('link_active')
+    $(this).addClass('link_active')
+    
+})
+
+$('.nav_product ul li').click(function(){
+    $('.nav_product ul li').removeClass('link_active')
+    $(this).addClass('link_active')
+    
+})
+
+
+
+
+
