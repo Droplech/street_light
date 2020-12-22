@@ -276,7 +276,9 @@ a:hover{
 
 
 
-
+.head_nav_wrapper  .left_nav{
+    width: 100%;
+}
 
 .head_nav_wrapper .navigate .more{
     position: relative;
@@ -286,7 +288,7 @@ a:hover{
     position: absolute;
     
     background-color: #fff;
-    width: 155px;
+    width: 200px;
     left: -52px !important;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     border-radius: 3px;
@@ -1576,6 +1578,15 @@ margin-top: 10px;
 .mob_foot_leng i{
     margin-left: -9px;
 }
+.navigate .more .toggle_menu .return_and_tog{
+    display: none;
+}
+
+.navigate .more .toggle_menu .payment_and_tog,
+.navigate .more .toggle_menu .contact{
+    display: none;
+}
+
 @media screen and (max-width: 1440px){
     .head_nav_wrapper,.head,.nav_product,
     .main_wrapper .main_content,
@@ -1611,6 +1622,27 @@ margin-top: 10px;
     .nav_product li{
         text-align: center;
     }
+    .navigate .return_and{
+        display: none;
+    }
+
+    .navigate .more .toggle_menu .return_and_tog
+    {
+        display: block;
+    }
+    .head_nav_wrapper .navigate{
+        width: 865px;
+    }
+
+
+
+
+
+
+
+
+
+
 
 }
 @media screen and (max-width: 1366px){
@@ -1639,6 +1671,16 @@ margin-top: 10px;
     .nav_product .parck_lighting .parck_toggle_block {
         left: -159px;
     }
+    .left_nav .navigate .payment_and{
+        display: none;
+    }
+
+    .navigate .more .toggle_menu .payment_and_tog{
+        display: block;
+    }
+    
+
+
 }
 @media screen and (max-width: 1280px){
     .nav_product ul li {
@@ -1661,6 +1703,16 @@ margin-top: 10px;
     }
     .footer_wrapper .footer_content .logo {
         margin-right: 3%;
+    }
+    .left_nav .navigate .contact{
+        display: none;
+    }
+
+    .navigate .more .toggle_menu .contact{
+        display: block;
+    }
+    .head_nav_wrapper .navigate {
+        width: 613px;
     }
    
 }
@@ -1706,6 +1758,27 @@ margin-top: 10px;
     .footer_wrapper .footer_content>div+div{
         margin-left: 13%;
     }
+    .head_nav_wrapper .social,
+    .head_nav_wrapper .lenguage{
+        width: 107px;
+    }
+    .head_nav_wrapper .currency{
+        width: 90px;
+    }
+
+
+    .left_nav .navigate .certificates,
+    .left_nav .navigate .models{
+        display: none;
+    }
+
+    .navigate .more .toggle_menu .certificates,
+    .navigate .more .toggle_menu .models{
+        display: block;
+    }
+
+  
+
 }
 @media screen and (max-width: 770px){
     .right_content .card_prod {
@@ -1714,6 +1787,7 @@ margin-top: 10px;
     .head_nav_wrapper .navigate{
         justify-content: flex-start;
         flex-wrap: wrap;
+        width: 63%;
     }
     .head_nav_wrapper .navigate li{
        margin-right: 10px;
@@ -1749,6 +1823,15 @@ margin-top: 10px;
     }
     .footer_wrapper .footer_content>div+div {
         margin-left: 11%;
+    }
+
+
+   
+    .head_nav_wrapper .social, .head_nav_wrapper .lenguage {
+        width: 75px;
+    }
+    .head_nav_wrapper .currency {
+        width: 47px;
     }
 }
 @media screen and (max-width: 420px){
