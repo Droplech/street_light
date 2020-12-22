@@ -1601,9 +1601,16 @@ margin-top: 10px;
     .nav_product .parck_lighting .parck_toggle_block {
         left: -170px;
     }
+    .nav_product ul li:last-child{
+        padding-left: 46px;
+    }
+    .nav_product{
+        height: auto;
+    }
 
-
-
+    .nav_product li{
+        text-align: center;
+    }
 
 }
 @media screen and (max-width: 1366px){
