@@ -1635,7 +1635,8 @@ margin-top: 10px;
 .product_card_content .product_article{
     font-size: 11px;
     color: #868686;
-    margin-top: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 
@@ -1707,6 +1708,7 @@ margin-top: 10px;
 
 .galery .simplebar-track.simplebar-vertical{
     width: 4px;
+    display: none;
 }
 .galery  .simplebar-scrollbar{
     width: 4px;
