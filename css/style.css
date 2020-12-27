@@ -2076,8 +2076,8 @@ margin-top: 10px;
 }
 
 .right_block_contant .payment,
-.right_block_contant  .tabs_block,
-.right_block_contant  .characteristic,
+.right_block_contant .tabs_block,
+.right_block_contant .characteristic,
 .right_block_contant .rar_file
 {
     border: 1px solid #d7d7d7;
@@ -2130,10 +2130,33 @@ margin-top: 10px;
     font-size: 12px;
 } 
 
-.right_block_contant .payment_bot a:hover{
+.right_block_contant .payment_bot div{
+    height: 15px;
+    position: relative;
+    padding-left: 25px;
+}
+.right_block_contant .payment_bot div i{
+    position: absolute;
+    left: 0;
+    top: -5px;
+}
+.right_block_contant .payment_bot div:hover{
+    
+    color: #c41e28;
+}
+.right_block_contant .payment_bot div:hover a{
     border-bottom-color: rgba(196,30,40,.5);
     color: #c41e28;
 }
+
+/* .right_block_contant .payment_bot a:hover{
+    border-bottom-color: rgba(196,30,40,.5);
+    color: #c41e28;
+}
+.right_block_contant .payment_bot a:hover i{
+    
+    color: #c41e28;
+} */
 .right_block_contant  .tabs_block{
     margin-top: 20px;
 }
