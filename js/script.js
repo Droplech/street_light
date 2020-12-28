@@ -365,11 +365,266 @@ $('.mob_slider_block').slick({
 
 
 
+$('.head_slider').slick({
+    dots: true,
+    infinite: true,
+    speed: 500,
+    fade: true,
+    cssEase: 'linear',
+    autoplay: true,
+    autoplaySpeed: 5000,
+  });
 
 
 
 
 
+
+    $('.button_item').click(function(){
+        $('.button_item').removeClass('span_active')
+        $(this).addClass('span_active')
+
+    })
+
+
+    $('.slider_bestseller_block .slider_content_newItem').slick({
+        dots: true,
+        infinite: false,
+        speed: 300,
+        dots: false,
+        slidesToShow: 6,
+        slidesToScroll: 2,
+        responsive: [
+            {
+                breakpoint: 1300,
+                settings: {
+                    slidesToShow: 5,
+                    slidesToScroll: 3,
+                    
+                }
+            },
+            {
+                breakpoint: 1100,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 3,
+                   
+                }
+            },
+            {
+                breakpoint: 770,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 2,
+                   
+                }
+            }
+           
+            
+        ]
+    })
+
+    $('.slider_newItem_block .slider_content_newItem').slick({
+        dots: true,
+        infinite: false,
+        speed: 300,
+        dots: false,
+        slidesToShow: 6,
+        slidesToScroll: 2,
+        responsive: [
+            {
+              breakpoint: 1300,
+              settings: {
+                slidesToShow: 5,
+                slidesToScroll: 3,
+                infinite: false,
+                dots: false
+              }
+            },
+            {
+                breakpoint: 1100,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 3,
+                    infinite: false,
+                    dots: false
+                }
+            },
+            {
+                breakpoint: 770,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 2,
+                   
+                }
+            }
+          
+           
+            
+        ]
+    })
+
+
+
+
+  $('.button_item_newItem').click(function(){
+    $('.slider_newItem_block').css({'opacity':'1', 'z-index':'1'})
+    $('.slider_bestseller_block').css("opacity","0")
+  })
+   
+  $('.button_item_bestsellers').click(function(){
+    $('.slider_newItem_block').css({'opacity':'0', 'z-index':'-1'})
+    $('.slider_bestseller_block').css("opacity","1")
+  })
+   
+
+
+
+
+
+
+
+  $('.lighting_slick').slick({
+    dots: true,
+    infinite: false,
+    speed: 300,
+    dots: false,
+    slidesToShow: 6,
+    slidesToScroll: 1,
+    responsive: [
+        {
+          breakpoint: 1300,
+          settings: {
+            slidesToShow: 5,
+            slidesToScroll: 3,
+            infinite: false,
+            dots: false
+          }
+        },
+        {
+            breakpoint: 1050,
+            settings: {
+                slidesToShow: 4,
+                slidesToScroll: 3,
+                infinite: false,
+                dots: false
+            }
+        },
+        {
+            breakpoint: 770,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 2,
+                infinite: false,
+                dots: false
+            }
+        },
+        {
+            breakpoint: 420,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 2,
+                infinite: false,
+                dots: true
+            }
+        },
+        
+       
+        
+    ]
+    })
+
+
+
+// $('.btn_open').click(function(){
+//     if( !$('.company_logos_wrapper').hasClass('active')  ){
+//         $('.company_logos_wrapper').addClass('active')
+//         $('.company_logos_wrapper').css({
+//             'height':'380px',
+//             'transition':'.4s'
+//         })
+//         $('.btn_open').html("<p>roll up</p>")
+
+//     }else{
+//         $('.company_logos_wrapper').removeClass('active')
+//         $('.company_logos_wrapper').css({
+//             'height':'140px',
+//             'transition':'.4s'
+//         })
+//         $('.btn_open').html("<p>Show more</p>")
+//     }
+// })
+
+
+
+$('.btn_open').click(function(){
+    if( !$('.company_logos_wrapper').hasClass('logos_wrapper_active')  ){
+        $('.company_logos_wrapper').addClass('logos_wrapper_active')
+       
+        $('.btn_open').html("<p>roll up</p>")
+
+    }else{
+        $('.company_logos_wrapper').removeClass('logos_wrapper_active')
+        
+        $('.btn_open').html("<p>Show more</p>")
+    }
+})
+
+
+
+
+
+
+
+if($(window).width() < 770){
+    $('.banner_content').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        dots: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        responsive: [
+            {
+              breakpoint: 420,
+              settings: {
+                infinite: true,
+                dots: true,
+                autoplay: true,
+                autoplaySpeed: 5000,
+              }
+            }
+           
+           
+            
+        ]
+    })
+
+    $('.company_logos_wrapper').slick({
+        dots: true,
+        infinite: false,
+        speed: 300,
+        dots: false,
+        slidesToShow: 4,
+        slidesToScroll: 2,
+        responsive: [
+            {
+              breakpoint: 420,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                
+                }
+            }
+           
+           
+            
+        ]
+    })
+
+
+    
+}
 
 
 
