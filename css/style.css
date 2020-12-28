@@ -2956,7 +2956,9 @@ margin-top: 10px;
 
 
 
-
+.company_logos .company_logos_title{
+    display: none;
+}
 
 
 
@@ -3279,6 +3281,12 @@ margin-top: 10px;
     .banner{
         margin-top: 30px;
     }
+    .company_logos .company_logos_title{
+        display: block;
+        font-weight: 700;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
 
 
 }
@@ -3439,6 +3447,12 @@ margin-top: 10px;
     }
     .company_logos .logos_item img {
         width: 100px;
+    }
+    .company_logos .company_logos_wrapper{
+        border: none;
+    }
+    .company_logos .company_logos_title{
+        padding-left: 20px;
     }
 
 }
